@@ -36,4 +36,4 @@ func bilkamera():
 	
 func _on_StartMaal_body_entered(body):
 	if body.is_in_group("Spiller"):
-		print('Du har passeret start')
+		print('Nice, Du har passeret start')
