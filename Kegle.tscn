@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Grafik/Objekter/cone_down.png" type="Texture" id=1]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 27.0
+
+[node name="Kegle" type="RigidBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2( 0.4, 0.4 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.4, 0.4 )
+texture = ExtResource( 1 )
